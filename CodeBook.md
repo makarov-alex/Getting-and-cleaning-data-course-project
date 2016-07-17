@@ -1,8 +1,8 @@
-#Code book
+#Codebook
 ***
 
 ## Introduction
-Following data was collected by researchers from [Universit‡ degli Studi di Genova](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Experiment was carried out among group of 30 volunteers, who performed simple actions (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing Samsung Galaxy S II smartphone. Data from smartphone's accelerometer and gyroscope was recorded and processed by applying some filters and mathematical functions. Detailed raw data description is available in _README.txt_ file inside dataset archive. 
+Following data was collected by researchers from [Universit√† degli Studi di Genova](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). Experiment was carried out among group of 30 volunteers, who performed simple actions (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing Samsung Galaxy S II smartphone. Data from smartphone's accelerometer and gyroscope was recorded and processed by applying some filters and mathematical functions. Detailed raw data description is available in _README.txt_ file inside dataset archive. 
 
 ## Raw dataset
 [Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
