@@ -14,9 +14,9 @@ The assignment was to create an R script, which prepares tidy data from raw data
 <br/>_(Detailed descriptions of operations, variables and assumptions could be found in **CodeBook.MD**)_<br/>
 <br/>
 There are 4 files:<br/>
---1. **run_analysis.R** - R script files, which process data<br/>
---2. **README.MD** - description of depository and files inside it<br/>
---3. **CodeBook.MD** - detailed description of opeartions, variables and assumptions<br/>
---4. **TidyData.txt** - tidy dataset, which is result of run_analysis.R execution<br/>
+1. **run_analysis.R** - R script files, which process data<br/>
+2. **README.MD** - description of depository and files inside it<br/>
+3. **CodeBook.MD** - detailed description of opeartions, variables and assumptions<br/>
+4. **TidyData.txt** - tidy dataset, which is result of run_analysis.R execution<br/>
 <br/>
 17.07.2016
