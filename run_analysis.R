@@ -70,5 +70,5 @@ run_analysis<-function()
     melted_dataset <- melt(dataset,id.vars = c("Subject","Activity"))
     tidydata<-dcast(melted_dataset, Subject + Activity ~ variable,mean)
     #writing data to output file
-    write.table(tidydata,"./tidydata.txt")
+    write.table(tidydata,"./tidydata.txt",row.names = FALSE,quote=FALSE)
 }
