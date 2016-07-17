@@ -5,7 +5,7 @@ run_analysis<-function()
     library(plyr)   
     library(reshape2)
     
-    #checking if dataset files exist. If not, downloading thwm to working directory
+    #checking if dataset files exist. If not, downloading them to working directory
     if(file.exists("dataset.zip")==FALSE)
     {
         print("Loading data...")
@@ -13,11 +13,11 @@ run_analysis<-function()
     }
     
     #checking if unziped version of dataset files exist. If not unziping them
- 
-    if(file.exists("UCI HAR Dataset")==FALSE)
+     if(file.exists("UCI HAR Dataset")==FALSE)
     {
         unzip("dataset.zip")
-    }
+     }
+    
     ##READING FILES##
     #reading activity lables and their numeric values (laying, sitting etc)
     activity_labels<-read.csv2("./UCI HAR Dataset/activity_labels.txt",header=FALSE,sep="",col.names = c("label","activity"))
@@ -71,5 +71,4 @@ run_analysis<-function()
     tidydata<-dcast(melted_dataset, Subject + Activity ~ variable,mean)
     #writing data to output file
     write.table(tidydata,"./tidydata.txt")
-
 }
